@@ -23,6 +23,7 @@ char* sbrk(int);
 int sleep(int);
 int uptime(void);
 int getCallCount(int i);
+int myMemory();
 
 // ulib.c
 int stat(char*, struct stat*);

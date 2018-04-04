@@ -118,3 +118,9 @@ sys_getCallCount(void)
 
 
 }
+
+int
+sys_myMemory(void)
+{
+  return myMemory();
+}
